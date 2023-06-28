@@ -1,0 +1,8 @@
+Colors:
+ yelow_#fffffe
+#ffd803
+#272343
+#2d334a
+#e3f6f5
+#bae8e8
+#a786df
