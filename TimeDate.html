@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Press Me!!!!</button>
+
+    <p id="demo"></p>
+
+    <p id="hidden" style="display:none">You found my secret!!!</p>
+
+    <button type="button" onclick="document.getElementById('hidden').style.display='block'">Click Me!!!</button>
+    <h2 onclick="this.innerHTML='You found the secret text'">Click me!!!!!</h2>
+
+
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)"
+        style="background-color: aquamarine; width: 120px; height: 20px; padding: 40px;"> Click Me!!!</div>
+
+    <script>
+        function mOver(obj) {
+            obj.innerHTML = 'Secret Text'
+        }
+
+        function mOut(obj) {
+            obj.innerHTML = "MOUSE OVER ME!!!!!"
+        }
+    </script>
+</body>
+
+</html>
