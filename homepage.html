@@ -1,79 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-        <style>
-            h1 {
-                text-align: center;
-                background-color: #ffc6c7;
-                padding: 20px;
-                color: rgb(245, 248, 250) ;
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
-
-            }
-            
+    <style>
+        h1 {
+            text-align: center;
+            background-color: #ffc6c7;
+            padding: 20px;
+            color: rgb(245, 248, 250);
 
 
 
-        </style>
-        
+        }
+
+        .tabsContainer {
+            background-color: rgb(184, 119, 214);
+            color: white;
+
+        }
+
+        a {
+            color: white
+        }
 
 
-    </head>
-    <body>
-        <h1>HOME PAGE</h1>
+        .left {
+            position: absolute;
+            left: 20px;
+            top: 300px;
+        }
 
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="homepage.html">homepage</a>
-                </div>
-                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="homepage.html">Home Page</a></li>
-                    <li class="active"><a href="Research.html">Basketball</a></li>
-                    <li class="active"><a href="Anna.html">Anna</a></li>
-                    <li class="active"><a href="bootstrap.html">Bootstrap</a></li>
-                 </ul>
+        .right {
+            position: absolute;
+            right: 20px;
+            top: 300px;
+        }
+
+        .leftslant {
+            rotate: 20deg;
+        }
+
+        .rightslant {
+            rotate: -20deg;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <h1>HOME PAGE</h1>
+
+    <nav class="tabsContainer">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="All about me.html"> All About Anna</a>
             </div>
-        </nav>
-      
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="homepage.html" target="_blank">Home Page</a></li>
+                <li class="active"><a href="Research.html" target="_blank">Basketball</a></li>
+                <li class="active"><a href="Anna.html" target="_blank">Anna</a></li>
+                <li class="active"><a href="bootstrap.html" target="_blank">Bootstrap</a></li>
+                <li class="active"><a href="TimeDate.html" target="_blank">Time and Date</a></li>
+            </ul>
+        </div>
+    </nav>
 
-       
+    <div class="left">
+        <img class="leftslant" src="GG.jpg" width="500px" height="300px">
+        <p> </p>
+        <img class="rightslant" src="Dream.jpg" width="300px" height="300px">
+
+    </div>
+
+    <div class="right">
+        <img class="rightslant" src="Paris.jpg" width="500px" height="300px">
+        <p> </p>
+        <img class="leftslant" src="pa.jpg" width="300px" height="300px">
+
+    </div>
+
+
+    <center>
+        <div>
+            <img class="leftslant" src="SP.jpg" width="300px" height="300px">
+            <p> </p>
+            <img class="rightslant" src="cat3.jpg" width="300px" height="500px">
+
+        </div>
+    </center>
 
 
 
-
-        
-    </body>
+</body>
 
 </html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</html>
