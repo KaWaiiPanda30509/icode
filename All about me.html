@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+
+    <title>Anna</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: table;
+
+
+        }
+
+        .container {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+
+        .glow {
+            color: #b551d3;
+            font-size: 9vw;
+            line-height: 9vw;
+            text-shadow: 0 0 3vw #0af4cd;
+            font-family: 'Times New Roman', Times, serifs;
+
+        }
+
+
+        .glow {
+            animation: glow 1.2s ease infinite;
+            -moz-animation: glow 1.2s ease infinite;
+            -webkit-animation: glow 1.2s ease infinite;
+        }
+
+        @keyframes glow {
+
+            0%,
+            100% {
+                text-shadow: 0 0 1vw #b551d3, 0 0 3vw #b551d3, 0 0 10vw #b551d3, 0 0 10vw #b551d3, 0 0 .4vw #b551d3, .5vw .5vw .1vw #b551d3;
+                color: #0af4cd;
+            }
+
+            50% {
+                text-shadow: 0 0 .5vw #f313bb, 0 0 1.5vw #f313bb, 0 0 5vw #f313bb, 0 0 5vw #f313bb, 0 0 .2vw #f313bb, .5vw .5vw .1vw #f313bb;
+                color: #0af4cd;
+            }
+        }
+
+
+
+        #name {
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+
+        }
+
+        p {
+            font-size: 30px;
+            font-family: 'Cedarville Cursive', cursive;
+            vertical-align: middle;
+            text-align: center;
+
+
+        }
+
+        .left {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+        }
+
+        .right {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+
+        .leftslant {
+           rotate: 20deg;
+        }
+        .rightslant {
+            rotate: -20deg;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="glow"> Anna </div>
+
+        <ul>
+            <lil> Favorite Colors: </lil>
+            <p> Lavendar,Aqua,Hot Pink </p>
+            <lil> Favorite Foods: </lil>
+            <p> Chicken Birianyi,Pizza,Cheese Burgers</p>
+            <lil> Favorite Hobbys: </lil>
+            <p> Coding and Swimming</p>
+            <lil> Favorite Summer Camp </lil>
+            <p> Web Developer</p>
+            <lil> Favorite Animals </lil>
+            <p> Gaint Pandas,Snowy Leopards,and Polor Bears</p>
+        </ul>
+
+        <div class="left">
+            <img class="leftslant" src="cb.jpg" width="500px" height="500px">
+            <p> </p>
+            <img class="rightslant" src="mac.jpg" width="300px" height="300px">
+
+        </div>
+
+        <div class="right">
+            <img class="rightslant" src="panda.jpeg" width="500px" height="500px">
+            <p> </p>
+            <img class="leftslant" src="pizza.jpg" width="300px" height="300px">
+
+        </div>
+
+</body>
+
+
+</html>
